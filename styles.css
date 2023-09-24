@@ -41,6 +41,13 @@ a:visited {
 }
 
 .image {
-    width: 100%;
     padding: 20px;
+}
+img {
+    max-width: 760px;
+}
+#create {
+    height: 500px;
+    width: 75%;
+
 }

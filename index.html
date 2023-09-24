@@ -11,17 +11,24 @@
     <header>
         <h1 style="color:blue; display:flex; justify-content:center">Hannah's Blog</h1>
         <ul style="list-style-type: none; margin: 0; padding: 0">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Create</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="music.html">Music</a></li>
             <li><a href="parenting.html">Parenting</a></li>
             <li><a href="uxdesign.html">UX Design</a></li>
+        <li><a href="login.html">Sign In</a></li>
         </ul>
     </header>
-    <p>Blog post 1</p>
-    <p>Blog post 2</p>
-    <p>Blog post 3</p>
-    <p>Blog post 4
-    </p>
+    <div class="container">
+        <div class="card">
+          <form action="/action_page.php">
+              <label for="create">Create:</label>
+              <input type="create" id="create" name="create"><br><br>
+              <label for="video">Video:</label>
+              <input type="video" id="video" name="video"><br><br>
+              <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
 </body>
 </html>
