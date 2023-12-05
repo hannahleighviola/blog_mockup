@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" rel="stylesheet" type="text/css" />
-    <title>Music</title>
+    <title>Sign In/Sign Up</title>
   </head>
   <body>
     <header>
@@ -18,16 +18,29 @@
         <li><a href="music.html">Music</a></li>
         <li><a href="parenting.html">Parenting</a></li>
         <li><a href="uxdesign.html">UX Design</a></li>
-        <li><a href="login.html">Sign In</a></li>
+        <li><a href="login.html">Sign In/Sign Up</a></li>
       </ul>
     </header>
     <section>
         <div class="container">
       <div class="card">
         <form action="/action_page.php">
+          <h1>Sign In</h1>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email"><br><br>
             <label for="password">Password:</label>
+            <input type="password" id="password" name="fname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="card">
+        <form action="/action_page.php">
+          <h1>Sign Up</h1>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="fname"><br><br>
+            <label for="password">Verify Password:</label>
             <input type="password" id="password" name="fname"><br><br>
             <input type="submit" value="Submit">
         </form>
